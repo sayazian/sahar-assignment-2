@@ -52,29 +52,31 @@ a:visited {
 .section-1 {
     color: white;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin: 20px;
 
 }
 
-.section-2 {
+.section-4 {
     display: flex;
     justify-content: center;
     padding: 50px;   
 }
 
-.section-3 {
+.section-2 {
     color: white;
     display: flex;
     flex-direction: row;
     flex-basis: 400px 200px;
     align-items: center;
     margin: 20px;
+    justify-content: center;
+    padding-top: 50px;
 
 }
 
-.section-4 {
+.section-3 {
     color: white;
     display: flex;
     flex-direction: column;
@@ -82,6 +84,13 @@ a:visited {
     margin: 20px;
 
 }
+
+.no-shrink-item {
+
+  flex-shrink: 0;
+
+}
+
 
 #wide-button {
     padding: 10px 50px;
